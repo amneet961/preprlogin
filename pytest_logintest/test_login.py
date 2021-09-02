@@ -60,11 +60,10 @@ def test_apple_login():
     password_input.send_keys('Prepr@123')
     driver.find_element_by_tag_name('i').click()
 
-#apple_login()
-#google_login()
-#microsoft_login()
-#linkedln_login()
-#apple_login()
-#magnet_login()
 test_site()
+test_microsoft_login()
+test_linkedln_login()
+test_google_login()
+test_apple_login()
+test_magnet_login()
 
